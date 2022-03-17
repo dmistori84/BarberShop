@@ -1,0 +1,227 @@
+:root {
+	--main-font: "Open Sans", sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+	--accent-color: #ff6c00;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+img {
+	display: block;
+}
+
+body {
+	font-family: var(--main-font);
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15;
+}
+
+/* ======= COMPONENTS =======*/
+
+.modal-btn {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+	color: #fff;
+	background-color: var(--accent-color);
+	cursor: pointer;
+}
+
+.social-links-list-link {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.2;
+	color: #303030;
+}
+
+.social-links-list-link:hover,
+.social-links-list-link:focus {
+	color: var(--accent-color);
+}
+
+.suptitle {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.description {
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+}
+
+.title {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.17;
+	letter-spacing: 0.05em;
+	color: #303030;
+}
+
+/* ======= END COMPONENTS =======*/
+
+/* ======= HEADER =======*/
+
+.menu-link {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+	color: var(--accent-color);
+}
+
+.tel-link {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+}
+
+.tel-link:hover,
+.tel-link:focus {
+	color: var(--accent-color);
+}
+
+/* ======= END HEADER =======*/
+
+/* ======= HERO =======*/
+
+.hero-title {
+	font-family: var(--secondary-font);
+	font-size: 72px;
+	line-height: 1.18;
+	letter-spacing: 0.05em;
+}
+
+/* ======= END HERO =======*/
+
+/* ======= ABOUT =======*/
+
+.about-text {
+	font-size: 14px;
+	line-height: 1.86;
+	letter-spacing: 0.02em;
+	color: #555555;
+}
+
+/* ======= END ABOUT =======*/
+
+/* ======= SERVICES ======= */
+.services-list-name,
+.services-list-price {
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: #9da4bd;
+}
+/* ======= END SERVICES ======= */
+
+/* ======= ADVANTAGES ======= */
+.advantages-list-count {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #303030;
+}
+
+.advantages-list-description {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.37;
+	text-align: center;
+	color: #303030;
+}
+/* ======= END ADVANTAGES ======= */
+
+/* ======= MASTERS ======= */
+.masters-list-name {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.39;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #303030;
+}
+
+.masters-list-position {
+	font-size: 14px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--accent-color);
+}
+/* ======= END MASTERS ======= */
+
+/* ======= GALLERY ======= */
+
+/* ======= END GALLERY ======= */
+
+/* ======= CONTACT INFORMATION ======= */
+.contact-info-link {
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: #9da4bd;
+}
+
+.contact-info-date {
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: #9da4bd;
+}
+
+/* ======= END CONTACT INFORMATION ======= */
+
+/* ======= FOOTER ======= */
+.copyright {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.2em;
+	color: #9da4bd;
+}
+/* ======= END FOOTER ======= */
