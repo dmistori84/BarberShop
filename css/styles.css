@@ -35,15 +35,25 @@ body {
 	text-decoration: none;
 }
 
+.section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
 .container {
 	width: 1200px;
 	padding-left: 15px;
-	padding-right: 15;
+	padding-right: 15px;
+	margin: 0 auto;
 }
 
 /* ======= COMPONENTS =======*/
 
 .modal-btn {
+    padding: 12px 20px;
+    height: 40px;
+    border: 1px solid var(--accent-color);
+    border-radius: 25px;
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 1.33;
@@ -78,6 +88,7 @@ body {
 	line-height: 1.36;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .description {
@@ -99,6 +110,35 @@ body {
 
 /* ======= HEADER =======*/
 
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+
 .menu-link {
 	font-weight: 600;
 	font-size: 12px;
@@ -116,6 +156,8 @@ body {
 	font-size: 12px;
 	line-height: 1.33;
 	letter-spacing: 0.1em;
+    margin-left: auto;
+    margin-right: 40px;
 }
 
 .tel-link:hover,
@@ -177,6 +219,27 @@ body {
 /* ======= END ADVANTAGES ======= */
 
 /* ======= MASTERS ======= */
+.masters {
+    background-color: #f7f7f7;
+}
+
+.masters-title {
+    margin-bottom: 44px;
+}
+
+.masters-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.masters-list-item {
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .masters-list-name {
 	font-weight: 400;
 	font-size: 18px;
@@ -184,6 +247,11 @@ body {
 	text-align: center;
 	letter-spacing: 0.02em;
 	color: #303030;
+    margin-bottom: 8px;
+}
+
+.masters-list-content {
+    padding-top: 30px;
 }
 
 .masters-list-position {
