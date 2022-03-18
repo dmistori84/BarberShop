@@ -69,6 +69,14 @@ body {
 	cursor: pointer;
 }
 
+.modal-btn-theme-dark {
+  color: #ffffff;
+}
+
+.modal-btn-theme-light {
+  color: #303030;
+}
+
 .social-links-list {
 	display: flex;
 	align-items: center;
@@ -102,18 +110,52 @@ body {
 }
 
 .suptitle {
+  display: flex;
+  align-items: center;
 	font-weight: 600;
 	font-size: 11px;
 	line-height: 1.36;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.suptitle::before {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+}
+
+.suptitle-theme-dark {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.suptitle-theme-dark::before {
+  background-color: rgba(157, 164, 189, 0.6);
+}
+
+.suptitle-theme-light {
+  color: #303030;
+}
+
+.suptitle-theme-light::before {
+  background-color: #303030;
 }
 
 .description {
 	font-size: 18px;
 	line-height: 1.67;
 	letter-spacing: 0.02em;
+}
+
+.description-theme-dark {
+  color: #9da4bd;
+}
+
+.description-theme-light {
+  color: #555555;
 }
 
 .title {
@@ -123,6 +165,14 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.05em;
 	color: #303030;
+}
+
+.title-theme-dark {
+  color: #ffffff;
+}
+
+.title-theme-light {
+  color: #303030;
 }
 
 /* ======= END COMPONENTS =======*/
@@ -222,30 +272,101 @@ body {
 
 /* ======= ABOUT =======*/
 .about-container {
-	display: flex;
+  display: flex;
 }
 
 .about-title {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  margin-bottom: 20px;
+}
+
+.about-left-side {
+  margin-right: 64px;
+}
+
+.about-img-list {
+  display: flex;
+}
+
+.about-img-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-text {
-	font-size: 14px;
-	line-height: 1.86;
-	letter-spacing: 0.02em;
-	color: #555555;
+  max-width: 480px;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+  margin-bottom: 40px;
 }
 
 /* ======= END ABOUT =======*/
 
 /* ======= SERVICES ======= */
+
+.services {
+ 
+  background-color: #111319;
+  /* background-image: url("/img/servises/servec-bg.png");   */
+  background-size: cover;
+}
+
+.services-title {
+  margin-bottom: 44px;
+}
+
+.services-modal-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.services-list-wrapper {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.services-list {
+  width: 50%;
+  padding: 30px 40px;
+}
+
+.services-list:first-child {
+  background-image: linear-gradient(
+    180deg,
+    #171a24 0%,
+    #171a2433 100%
+  );
+}
+
+.services-list:last-child {
+  background-image: linear-gradient(
+    180deg,
+    #090b13 0%,
+    rgba(9, 11, 19, 0.2) 100%
+  );
+}
+
+.services-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 .services-list-name,
 .services-list-price {
-	font-size: 18px;
-	line-height: 1.67;
-	letter-spacing: 0.02em;
-	color: #9da4bd;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
 }
+
 /* ======= END SERVICES ======= */
 
 /* ======= ADVANTAGES ======= */
