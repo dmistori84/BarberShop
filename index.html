@@ -30,7 +30,7 @@
                 </ul>
             </nav>
             <a class="tel-link link" href="tel:+380441111111">+38044 111 11 11</a>
-            <button class="modal-btn modal-btn-theme-dark" type="button">онлайн-запись</button>
+            <button class="modal-btn modal-btn-theme-dark" type="button" data-modal-open>онлайн-запись</button>
         </div>   
     </header>
     <!-- END HEADER -->
@@ -71,7 +71,7 @@
                   Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. 
                   Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенстовать каждого, кто к нам приходит!
               </p>
-              <button class="modal-btn modal-btn-theme-light" type="button">онлайн-запись</button>
+              <button class="modal-btn modal-btn-theme-light" type="button" data-modal-open>онлайн-запись</button>
             </div>           
           </div>
         </section>
@@ -230,5 +230,14 @@
             </div>
         </footer>
         <!-- END FOOTER -->
+
+        <!-- BACKDROP -->
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="modal-close-btn" type="button" data-modal-close>X</button>
+            </div>
+        </div>
+        <!-- END BACKDROP -->
+    <script src="/js/modal.js"></script>
 </body>
 </html>

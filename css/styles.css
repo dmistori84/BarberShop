@@ -555,3 +555,48 @@ body {
   color: #9da4bd;
 }
 /* ======= END FOOTER ======= */
+
+/* ======= MODAL WINDOW ======= */
+
+.backdrop {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+	transition: opacity 250ms linear, visability 250ms linear;
+}
+
+.modal {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: 528px;
+	height: 581px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.modal-close-btn {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	cursor: pointer;
+	padding: 0;
+}
+
+.is-hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+/* ======= END MODAL WINDOW ======= */
